@@ -1,24 +1,226 @@
-<!-- 
-HTML Template for Missions, delete and replace with mission HTML
--->
+
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Gnius Club</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Playbook - Preescolar Sesión 15</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
-  <h1>
-    Playbook HTML Placeholder Template
-  </h1>
-  <p>
-    Replace with actual playbook code.
-  </p>
-  <script src="script.js"></script>
+<header>
+<h1><span class="book-icon">📋</span> <strong>Playbook Sesión 15 Kínder 1</strong></h1>
+<div class="header-widgets">
+<div class="timer-container">
+<span id="timer">⏱️ 00:00</span>
+<button id="startStop">Start</button>
+<button id="reset">Reset</button>
+</div>
+<div class="theme-toggle">
+<i class="fas fa-sun"></i>
+<label class="switch">
+<input type="checkbox" id="theme-toggle-input">
+<span class="slider round"></span>
+</label>
+<i class="fas fa-moon"></i>
+</div>
+</div>
+</header>
+<div class="main-container">
+<aside class="activity-list">
+<h2>Actividades</h2>
+<ul>
+<li><a href="#activity-0">📝</a></li>
+<li><a href="#activity-1">1</a></li>
+<li><a href="#activity-2">2</a></li>
+<li><a href="#activity-3">3</a></li>
+<li><a href="#activity-4">4</a></li>
+</ul>
+<div class="sidebar-info">
+<p>💡 Cada actividad está diseñada para ser lúdica y captar la atención de los más pequeños.</p>
+<p>⏱️ Los tiempos son una guía. Sé flexible y adáptate al ritmo del grupo.</p>
+</div>
+</aside>
+<main class="content">
+<div class="progress-bar">
+<div class="progress"></div>
+</div>
+<button id="toggle-dialogues">Mostrar todos los diálogos</button>
+<div class="activity-card" id="activity-0">
+<h2><span class="book-icon">📝</span> De un Vistazo: Misión: ¡El Secreto de las Torres Infinitas y los Patrones Mágicos!</h2>
+<p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para esta aventura de aprendizaje.</p>
+<div class="overview-table-container">
+<table>
+<thead>
+<tr>
+<th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
+<th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<strong>Objetivos de Aprendizaje:</strong>
+<ul>
+<li>Conectar la idea de patrones (Unidad 4) con la de bucles.</li>
+<li>Crear un patrón complejo usando una regla de repetición.</li>
+<li>Desarrollar el pensamiento crítico y la eficiencia.</li>
+</ul>
+<strong>Secuencia Didáctica de la Misión:</strong>
+<ul>
+<li>⚡ Actividad 1: Bienvenida y Calentamiento Cerebral</li>
+<li>⚡ Actividad 2: Planteamiento del Reto y Cuento</li>
+<li>⚡ Actividad 3: ¡Manos a la Obra! (Actividad Principal)</li>
+<li>⚡ Actividad 4: Puesta en Común y Cierre de la Misión</li>
+</ul>
+<strong>Entregable Clave:</strong>
+<ul>
+<li>Construcción de una torre o estructura alta que repita de manera precisa una unidad de patrón de 3 elementos, y la capacidad de explicar su 'regla' de repetición.</li>
+</ul>
+</td>
+<td>
+<strong>Materiales Específicos:</strong>
+<ul>
+<li>Bloques LEGO Duplo de 3 colores (rojo, azul, amarillo).</li>
+<li>Papel y crayones.</li>
+</ul>
+<strong>Preparación Previa para ESTA Sesión:</strong>
+<ol>
+<li><strong>Revisión de Materiales:</strong> Asegurar que todos los materiales estén completos, limpios y listos para ser repartidos entre los grupos.</li>
+<li><strong>Preparación del Espacio:</strong> Organizar el aula para facilitar tanto la actividad de diseño en papel como la construcción con bloques (puedes designar un área para el círculo de bienvenida y otra para mesas de trabajo o alfombras).</li>
+<li><strong>Familiarización:</strong> Leer el playbook completo para entender el flujo narrativo, los diálogos sugeridos y las transiciones entre actividades. Ten clara la historia o el "reto de rascacielos" que se presentará para mantener la motivación.</li>
+<li><strong>Preparación de Diapositivas:</strong> Asegúrate de tener listas las diapositivas correspondientes a cada paso de la actividad para proyectarlas en el momento indicado.</li>
+</ol>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="activity-card" id="activity-1">
+<h2>⚡ Actividad 1: ¡Ritmo y Magia con Patrones! ⏰ 5 min</h2>
+<p>Activamos nuestro cuerpo y mente con sonidos y movimientos, ¡descubriendo el poder de los patrones!</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: ¡A Mover el Esqueleto y el Cerebro con Palmadas y Chasquidos! ⏰ 2 min</h3>
+<p>(Proyectar Diapositiva 1) ¡Bienvenidos, pequeños exploradores! Comenzaremos nuestra aventura con un juego de ritmo y movimiento. Invita a los niños a formar un círculo o a sentarse cómodamente. Explica que vamos a crear patrones con nuestro cuerpo. Inicia con un patrón ABAB sencillo, como "palmada, chasquido, palmada, chasquido". Repítanlo juntos varias veces, haciendo hincapié en la repetición y el ritmo.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Hola, hola, mis queridos constructores y exploradores del saber! ¡Qué energía tan maravillosa traen hoy! ¡Estoy tan feliz de que estemos listos para una nueva aventura! ¿Recuerdan que a veces hacemos música con nuestras manos? ¡Hoy vamos a hacer patrones con ellas! Primero, vamos a hacer "palmada, chasquido". ¡Palmada! (Haz la palmada) ¡Chasquido! (Haz el chasquido) ¡Ahora juntos! ¡Palmada-chasquido-palmada-chasquido! ¡Eso es! Sientan el ritmo, ¡es como una canción que se repite! ¿Lo ven?</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: ¡Patrones con Todo el Cuerpo! ⏰ 3 min</h3>
+<p>(Proyectar Diapositiva 2) Ahora, vamos a probar un patrón con todo el cuerpo. Propón un patrón sencillo como "salto, giro, salto, giro". Asegúrate de que todos sigan el patrón y lo repitan varias veces. Pregunta a los niños si pueden identificar la parte que se repite ("el salto y el giro"). Felicítalos por su atención y ritmo. Concluye explicando que estos juegos de patrones nos ayudan a preparar nuestra mente para el gran reto del día.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Excelente! ¡Son unos maestros de los patrones con las manos! ¿Y qué tal si usamos todo nuestro cuerpo? ¡Vamos a probar con "salto y giro"! ¡Listos! ¡Salto! (Haz un salto pequeño) ¡Giro! (Haz un giro sencillo) ¡Salto! ¡Giro! ¡Muy bien! ¿Cuál es la parte que estamos repitiendo una y otra vez? ¡Sí, el salto y el giro! ¡Son unos genios de los patrones! ¡Esto es muy importante, porque hoy vamos a construir algo increíble usando patrones! ¡Están listos!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-2">
+<h2>⚡ Actividad 2: El Misterio de la Regla Secreta ⏰ 10 min</h2>
+<p>Descubrimos que las cosas se repiten, ¡como en una canción o en una torre de bloques!</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: El Misterio de los Bloques de Colores ⏰ 5 min</h3>
+<p>(Proyectar Diapositiva 3) Reúne a los niños en un círculo o frente a ti. Muestra los bloques LEGO Duplo de tres colores (rojo, azul, amarillo). Comienza a construir una secuencia simple de patrón ABC, por ejemplo: rojo, azul, amarillo, rojo, azul... Haz una pausa antes del siguiente bloque y pregunta a los niños: "¿Qué color creen que sigue ahora?". Escucha sus respuestas y anima la participación.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Mis pequeños detectives de colores! Miren lo que tengo aquí... ¡unos bloques mágicos! Son de color rojo, azul y amarillo. Voy a construir algo con ellos, ¡y necesito su ayuda para descubrir un misterio! Miren bien: pongo un bloque rojo, luego uno azul, después uno amarillo. ¡Y ahora otra vez un rojo, y luego un azul! Mmmm... ¿Cuál creen que es el siguiente color que debo poner? ¡Piensen, piensen! ¡Sí! ¡Excelente! ¡Amarillo! ¡Lo descubrieron!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: El Secreto de la 'Regla' y el 'Bucle' ⏰ 5 min</h3>
+<p>(Proyectar Diapositiva 4) Una vez que hayan identificado el siguiente color, explica que esa secuencia (rojo, azul, amarillo) es la "regla secreta" o el "bucle" de nuestro patrón. Usa analogías sencillas, como una canción que repite su coro o un juego que repite una acción. Enfatiza que al repetir esta "regla", podemos construir algo mucho más grande, como una torre muy alta. Introduce el "Reto de Rascacielos" como el objetivo final, añadiendo un elemento competitivo y cooperativo.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Lo descubrieron! ¡Son unos genios de los patrones! Esa parte que acabamos de decir, "rojo, azul, amarillo", ¡esa es nuestra 'regla secreta'! Es como el pedacito de una canción que se repite una y otra vez para que la canción sea más larga y bonita. O como cuando jugamos a las estatuas y repetimos "uno, dos, tres, estatua". A esa parte que se repite, en el mundo de los constructores, ¡también le decimos 'bucle'! Hoy, nuestro reto es construir las 'Torres Infinitas' usando estas 'reglas secretas' o 'bucles'. ¡El equipo que construya la torre más alta siguiendo su regla de bucle, gana! ¡Esto va a ser un "Reto de Rascacielos" increíble! ¿Están listos para este desafío?</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-3">
+<h2>⚡ Actividad 3: ¡Construyendo Rascacielos de Patrones! ⏰ 20 min</h2>
+<p>Es hora de que nuestros pequeños ingenieros diseñen y construyan sus propias torres, ¡usando la magia de la repetición!</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: Diseñando Nuestra 'Unidad Mágica' de 3 Colores ⏰ 5 min</h3>
+<p>(Proyectar Diapositiva 5) Divide a los niños en grupos pequeños (2-3 niños por grupo). Entrega a cada grupo papel y crayones. Explica que, antes de construir, cada equipo debe dibujar su propia "unidad mágica" o "regla" de patrón, usando los tres colores disponibles (rojo, azul, amarillo). Anima la discusión dentro de los grupos sobre qué combinación de 3 colores les gustaría que se repitiera. Circula para ofrecer ideas o ayuda si algún grupo se atasca, asegurándote de que comprendan que debe ser una secuencia de TRES colores.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Muy bien, mis arquitectos y diseñadores de patrones! ¡Es hora de la fase de diseño! Cada equipo va a tener su propio papel y crayones. Su misión es dibujar la 'regla secreta' de su torre. ¿Recuerdan que nuestra regla es de tres colores? Así que, en su papel, ¡dibujen qué tres colores quieren que se repitan una y otra vez en su torre! ¿Será rojo-azul-amarillo? ¿O tal vez amarillo-rojo-azul? ¡O azul-amarillo-rojo! ¡Hay muchas combinaciones divertidas! ¡Discutan en equipo y pongan su diseño en el papel! ¡Esta será la parte que se va a repetir una y otra vez para que su torre crezca y crezca! ¡Vamos, a crear esa 'unidad mágica'!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: ¡Manos a la Torre Infinita! ¡A Construir! ⏰ 15 min</h3>
+<p>(Proyectar Diapositiva 6) Una vez que cada grupo haya diseñado y dibujado su "unidad mágica", proporciona los bloques LEGO Duplo. Explica que ahora deben construir su torre, repitiendo exactamente la secuencia de colores que dibujaron. Enfatiza la importancia de seguir su propia "regla" para que la torre sea "fuerte y mágica". Monitorea de cerca, ofreciendo apoyo y haciendo preguntas como: "¿Cuál es tu regla de patrón?" o "¿Qué color sigue ahora en tu torre?". Si un grupo tiene dificultades, ayúdalos a identificar la unidad que deben repetir y a corregir cualquier error. Fomenta la colaboración entre los miembros del equipo.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Ahora sí, mis constructores intrépidos! ¡Es hora de poner manos a la obra! Con su diseño de patrón en el papel, ¡tomen sus bloques y empiecen a construir su torre! Recuerden, ¡la clave para que su torre sea la más alta y mágica es REPETIR su 'regla secreta' una y otra vez! ¡Si su regla es 'rojo, azul, amarillo', entonces siempre deben poner rojo, azul, amarillo, y luego otra vez rojo, azul, amarillo! ¡Quiero ver esas torres llegar al cielo! Si se confunden, ¡miren su dibujo! ¡Esa es su guía secreta! ¿Cómo va esa torre? ¡Qué gran idea! ¡Están siguiendo su regla perfectamente! ¡Ustedes son unos genios de la construcción de rascacielos de patrones!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-4">
+<h2>⚡ Actividad 4: ¡Nuestras Torres del Saber y la Creatividad! ⏰ 5 min</h2>
+<p>Compartimos nuestras increíbles creaciones y celebramos el éxito de nuestra misión.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: ¡Desfile de Rascacielos y Celebración! ⏰ 3 min</h3>
+<p>(Proyectar Diapositiva 7) Pide a cada grupo que traiga su torre terminada al centro del círculo o a un área designada para la exhibición. Anima a los niños a admirar las construcciones de los demás, destacando la variedad y la creatividad. Crea un ambiente de celebración y orgullo por el trabajo realizado. Puedes poner música suave y animada de fondo mientras se organizan.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Equipo, es momento de mostrar al mundo nuestras increíbles obras de arte! ¡Traigan sus espectaculares Torres Infinitas al centro! ¡Guau! ¡Miren qué maravillas han creado! Cada torre es única y especial. ¡Esto es impresionante, de verdad! ¡Un aplauso para todos estos arquitectos tan talentosos! ¡Miren cómo cada una es diferente y hermosa!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: Mi 'Regla Secreta' y el Poder del Bucle ⏰ 2 min</h3>
+<p>(Proyectar Diapositiva 8) Pide a cada grupo que presente su torre. Primero, que "lean" su patrón en voz alta, señalando los colores de su "bucle" o "regla" (por ejemplo: "rojo, azul, amarillo, rojo, azul, amarillo..."). Luego, pregúntales: "¿Cuál fue la parte que repitieron una y otra vez para que su torre creciera tanto?". Refuerza el concepto de "bucle" como una forma eficiente de construir y crear patrones complejos. Felicita a cada grupo por su esfuerzo, su trabajo en equipo y por haber dominado el arte de los patrones y los bucles. Concluye la actividad con una gran felicitación y un resumen de lo aprendido.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Increíble! Ahora, ¿quién quiere ser el primer equipo en contarnos cuál fue la 'regla secreta' de su torre? ¡A ver, a ver! ¡Díganlo fuerte y claro mientras la señalan! "Rojo, azul, amarillo, rojo, azul, amarillo..." ¡Fantástico! ¡Y esta parte que repitieron una y otra vez, a eso le llamamos 'bucle'! ¡Así construyeron una torre gigante sin tener que pensar en cada bloque nuevo! ¡MISIÓN CUMPLIDA, EQUIPO DE ARQUITECTOS! ¡Han construido torres asombrosas usando los patrones y los bucles como verdaderos expertos! ¡Son unos campeones! ¿Qué fue lo que más les gustó de esta aventura de construir? ¡Se ganaron su medalla de constructores de bucles!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+<script src="script.js"></script>
 </body>
-
 </html>
